@@ -1,9 +1,12 @@
+"""SDE Apprenticeship Python Project -Text-based game built used Python
+Application is a Trivia Game where the user can test their knowledge in different categories
+by answering questions and getting a score for their answers"""
+
 import json
 import time
 import pyfiglet
-import random
 
-# category names need to be same as the filenames that will contain the questions
+# category names need to be same as the filenames that will contain the trivia questions
 CATEGORY_LIST = ['music', 'movies', 'cars', 'politics']
 
 
