@@ -3,8 +3,8 @@ import time
 import pyfiglet
 import random
 
-# category names need to be same as the filenames that will contain the trivia questions
-CATEGORY_LIST = ['music', 'movies', 'cars', 'politics', 'literature']
+# category names need to be same as the filenames that will contain the questions
+CATEGORY_LIST = ['music', 'movies', 'cars', 'politics']
 
 
 def generate_question(question):
@@ -48,18 +48,19 @@ def quiz(questions):
 
 # Reads/loads questions from JSON files and returns it
 def read_question(filename):
+    # loads the questions from the JSON file into a Python dictionary and returns it
     questions = None
     with open(filename, "r") as read_file:
         questions = json.load(read_file)
     return questions
 
 
-# Start quiz
+# Prompts user for category selection & reads questions based on the category selected
 def start_quiz():
     flag = False
     try:
         choice = int(input(f"\nChoose your category of interest:\n(1). Music\n(2). "
-                           f"Movies\n(3). Cars\n(4). Politics\n(5). Literature\nEnter Your Choice [1/2/3/4/5]: "))
+                           f"Movies\n(3). Cars\n(4). Politics\nEnter Your Choice [1/2/3/4]: "))
         if choice > len(CATEGORY_LIST) or choice < 1:
             print("Invalid Choice. Please Try Again")
             flag = True  # raise flag
@@ -88,7 +89,7 @@ def user_begin_prompt():
     elif play.lower() == 'b':
         print("We are sad to see you go. Hope you come back soon!")
     else:
-        print("Hmm. I didn't quite understand that.\nEnter A to play, or B to quit.")
+        print("Hmm. I didn't understand that.\nEnter A to play, or B to quit.")
         user_begin_prompt()
 
 
