@@ -37,7 +37,7 @@ def score_response(key, response):
 def quiz(questions):
     score = 0
     print(
-        "Instructions:\n1. Please enter only the letter choice corresponding to your answer."
+        "\nInstructions:\n1. Please enter only the letter choice corresponding to your answer."
         "\n2. Each correct question gets you 2 points\n3. Wrong answers are a big FAT 0 points"
         "\nQuiz will start momentarily. May the odds be in your favor!\n")
     time.sleep(5)
@@ -85,7 +85,7 @@ def user_begin_prompt():
 
     print("\nA. Yes\nB. No")
     play = input("What is your choice? : ")
-    if play.lower() == 'a' or play.lower() == 'y':
+    if play.lower() == 'a':
         name = input("What is your name? : ")
         print(f"\nHi there {name}! Let's play a Trivia Game!")
         start_quiz()
