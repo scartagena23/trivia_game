@@ -1,0 +1,32 @@
+{
+  "1": {
+    "question": "What is generally considered to be the first 'pony car'?\n(a) Ford Mustang\n(b) Pontiac Firebird\n(c) Mercury Cougar\n(d) Chevrolet Camaro\n",
+    "answer": "a",
+    "more_info": "Although Plymouth enthusiasts insist that the Baracuda beat the Mustang to market by two weeks, it was the Ford Mustang, first introduced at the New York World's Fair on April 17, 1964.",
+    "user_response": "None"
+  },
+  "2": {
+    "question": "What was the first Japanese car to be produced in the United States?\n(a) Mazda Miata\n(b) Toyota Camry\n(c) Honda Accord\n(d) Nissan Maxima\n",
+    "answer": "c",
+    "more_info": "In November of 1982, the first American-produced Honda Accord rolled off the assembly line at the Marysville Auto Plant in Ohio.",
+    "user_response": "None"
+  },
+  "3": {
+    "question": "What was the first car to break the sound barrier?\n(a) Bugatti Veyron\n(b) Koenigsegg Agera R\n(c) Hennessey Venom GT\n(d) Thrust SSC\n",
+    "answer": "d",
+    "more_info": "Driving the ThrustSSC at Nevada's Black Rock Desert in 1997, Andy Green became the first person on land to go faster than the speed of sound.",
+    "user_response": "None"
+  },
+  "4": {
+    "question": "What was the first car launched into space?\n(a) Rinspeed Oasis\n(b) Rolls Royce Vision 100\n(c) Porsche 911\n(d) Tesla Roadster\n",
+    "answer": "d",
+    "more_info": "In February 2018, Elon Musk launched a Tesla Roadster into orbit. Yes, an actual car launched at a speed of 18,000 mph was sent cruising around Earth.",
+    "user_response": "None"
+  },
+  "5": {
+    "question": "What animal is on the Porsche logo?\n(a) Bird\n(b) Lion\n(c) Horse\n(d) Bull\n",
+    "answer": "c",
+    "more_info": "The horse on the logo, which was taken from Stuttgart's Coat of Arms, represents the stud farm on which the city was built.",
+    "user_response": "None"
+  }
+}
